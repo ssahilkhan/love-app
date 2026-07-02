@@ -2,7 +2,7 @@
 
 A personalized interactive web application designed as a love letter experience with journey tracking, quizzes, comfort rooms, and achievement systems. Built with a React frontend and FastAPI backend.
 
-## Completion Progress
+## Progress
 
 ![Progress](https://progress-bar.dev/80)
 
