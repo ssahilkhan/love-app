@@ -1,32 +1,43 @@
-# Love App
+# My H - Love App
 
-A romantic full-stack web application with interactive love letters, quizzes, and relationship journey features.
+A personalized interactive web application designed as a love letter experience with journey tracking, quizzes, comfort rooms, and achievement systems. Built with a React frontend and FastAPI backend.
 
-## Features
+## Completion Progress
 
-- **Love Letter**: Create and share digital love letters
-- **Quiz**: Fun relationship quizzes
-- **Love Journey**: Track relationship milestones
-- **Authentication**: User login system
+![Progress](https://progress-bar.dev/80)
 
 ## Tech Stack
 
-- **Frontend**: React 19, Radix UI, Tailwind CSS
-- **Backend**: FastAPI (Python)
-- **Database**: MongoDB (Motor)
+- **FastAPI** (Python) - Backend API with async support
+- **React 19** (Create React App via Craco) - Frontend
+- **MongoDB** (via Motor + PyMongo) - Database
+- **Radix UI** - Accessible component primitives
+- **Tailwind CSS** - Utility-first styling
+- **Zod** + **React Hook Form** - Form validation
+- **Axios** - HTTP client
+- **date-fns** - Date utilities
+- **Framer Motion** (via cmdk/vaul) - Animations
 
-## Setup
+## Features Implemented
 
-### Backend
-```bash
-cd backend
-pip install -r requirements.txt
-python server.py
-```
+- Session management with personalized nickname validation
+- Interactive love journey with section-by-section progression
+- Quiz system with scoring and answer tracking
+- Virtual comfort rooms exploration
+- API key-based page tracking
+- Analytics dashboard with session statistics
+- Achievement system with badges
+- Personalized final message generation
+- CORS middleware for cross-origin requests
+- Comprehensive logging
 
-### Frontend
-```bash
-cd frontend
-npm install
-npm start
-```
+## Future Scope
+
+- Real-time chat integration
+- Persistent database storage (MongoDB/MariaDB)
+- Media uploads (photos, voice notes)
+- Mobile app version (Flutter/React Native)
+- Multi-language support
+- Email/SMS notifications
+- Gamification with leaderboards
+- Admin dashboard for user management
